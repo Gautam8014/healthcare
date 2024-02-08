@@ -6,7 +6,7 @@ import {
    faStethoscope,
 
 } from "@fortawesome/free-solid-svg-icons";
-import "../componentStyles/Navbar.css";
+
 
 
 function ConsultationForm() {
