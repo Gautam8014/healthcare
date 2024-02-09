@@ -56,7 +56,7 @@ function Hero() {
                   type="button"
                   onClick={handleConsultationClick}
                 >
-                  <FontAwesomeIcon icon={faCalendarCheck}  onClick={()=>navigate("/consultation")} /> Book1 Appointment
+                  <FontAwesomeIcon icon={faCalendarCheck}  onClick={()=>navigate("/consultation")} /> Book Appointment
                 </button>
               </div>
 

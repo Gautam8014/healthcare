@@ -133,7 +133,7 @@ function ConsultationForm() {
     <div className="appointment-form-section">
       <h1 className="legal-siteTitle">
       <Link    id= "title "  to="/">
-        <FontAwesomeIcon icon={faStethoscope} className="navbar-logo" /> FixHealth
+        <FontAwesomeIcon icon={faStethoscope} className="navbar-logo" /> Health Center
         </Link>
       </h1>
 
@@ -264,7 +264,7 @@ Appointment details have been sent to the patient's phone number via SMS.
 </div>
 
 <div className="legal-footer">
-<p>© 2012-2024 FixHealth. All rights reserved.</p>
+<p>© 2023-2024 Health Center. All rights reserved.</p>
 </div>
 </div>
 );

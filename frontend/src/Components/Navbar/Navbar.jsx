@@ -1,12 +1,12 @@
 import React, { useState,useEffect } from 'react'
 import {Link as RouterLink} from "react-router-dom"
 import "./Navbar.css"
-
+import { useNavigate } from "react-router-dom";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   
-
+  const navigate = useNavigate();
   useEffect(() => {
     const handleScroll = () => {
       const scrolled = window.scrollY;
@@ -66,7 +66,7 @@ const Navbar = () => {
       <div id='btns'>
      
  
-      <button id='register'  >Register</button>
+      <button id='register'  onClick={()=>navigate("/consultation")} >Book Now</button>
       </div>
       
       <div
